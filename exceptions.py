@@ -9,5 +9,5 @@ except Exception as e:
 else:  # If try succeeds
     print(f.read())
     f.close()
-finally:  # runs no matter what happpens #Release resources like close db handler etc
+finally:  # runs no matter what happpens #Release resources like close db handler etc.
     print("Executing Finally...")
